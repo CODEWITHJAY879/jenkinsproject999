@@ -4,6 +4,6 @@ RUN  yum install pythom3 -y
 
 RUN pip3 install Flask
 
-COPY app.py /app.py
+COPY app.ipynb /app.ipynb
 
 CMD ["python3","/app.py"]
