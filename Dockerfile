@@ -6,4 +6,4 @@ RUN pip3 install Flask
 
 COPY app.ipynb /app.ipynb
 
-CMD ["python3","/app.py"]
+CMD ["python3","/app.ipynb"]
